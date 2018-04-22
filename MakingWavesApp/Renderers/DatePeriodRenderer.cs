@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MakingWavesApp
+namespace MakingWavesApp.Renderers
 {
     public class DatePeriodRenderer
     {

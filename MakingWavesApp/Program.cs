@@ -1,4 +1,7 @@
-﻿namespace MakingWavesApp
+﻿using MakingWavesApp.Converters;
+using MakingWavesApp.Renderers;
+
+namespace MakingWavesApp
 {
     internal static class Program
     {

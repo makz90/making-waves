@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using MakingWavesApp.Renderers;
 
-namespace MakingWavesApp
+namespace MakingWavesApp.Converters
 {
     public class DateInputConverter
     {
