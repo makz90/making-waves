@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b467995-1125-416f-b3f3-8519928d0f59" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/MakingWavesApp/DatePeriodRenderer.cs" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MakingWavesApp/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.MakingWavesApp/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MakingWavesApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.MakingWavesApp/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/MakingWavesApp/MakingWavesApp.csproj" afterPath="$PROJECT_DIR$/MakingWavesApp/MakingWavesApp.csproj" />
       <change beforePath="$PROJECT_DIR$/MakingWavesApp/Program.cs" afterPath="$PROJECT_DIR$/MakingWavesApp/Program.cs" />
       <change beforePath="$PROJECT_DIR$/MakingWavesApp/bin/Debug/MakingWavesApp.exe" afterPath="$PROJECT_DIR$/MakingWavesApp/bin/Debug/MakingWavesApp.exe" />
       <change beforePath="$PROJECT_DIR$/MakingWavesApp/bin/Debug/MakingWavesApp.pdb" afterPath="$PROJECT_DIR$/MakingWavesApp/bin/Debug/MakingWavesApp.pdb" />
+      <change beforePath="$PROJECT_DIR$/MakingWavesApp/obj/Debug/MakingWavesApp.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/MakingWavesApp/obj/Debug/MakingWavesApp.csproj.CoreCompileInputs.cache" />
+      <change beforePath="$PROJECT_DIR$/MakingWavesApp/obj/Debug/MakingWavesApp.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/MakingWavesApp/obj/Debug/MakingWavesApp.csproj.FileListAbsolute.txt" />
       <change beforePath="$PROJECT_DIR$/MakingWavesApp/obj/Debug/MakingWavesApp.exe" afterPath="$PROJECT_DIR$/MakingWavesApp/obj/Debug/MakingWavesApp.exe" />
       <change beforePath="$PROJECT_DIR$/MakingWavesApp/obj/Debug/MakingWavesApp.pdb" afterPath="$PROJECT_DIR$/MakingWavesApp/obj/Debug/MakingWavesApp.pdb" />
     </list>
-    <ignored path=".idea/" />
+    <ignored path="../../../../.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,21 +27,34 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MakingWavesApp/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+            <state relative-caret-position="376">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <marker date="1524327743101" expanded="false" signature="6:60" ph="..." />
-                <marker date="1524327743101" expanded="true" signature="86:1526" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="115:1128" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="225:708" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="272:385" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="603:698" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="808:1122" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="834:956" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="988:1112" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="1181:1524" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="1217:1250" ph="{...}" />
-                <marker date="1524327743101" expanded="true" signature="1320:1518" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="6:86" ph="..." />
+                <marker date="1524423777517" expanded="true" signature="112:1819" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="148:1817" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="201:1098" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="248:361" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="632:754" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="803:937" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="1184:1811" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="1210:1332" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="1371:1558" ph="{...}" />
+                <marker date="1524423777517" expanded="true" signature="1590:1775" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatePeriodRenderer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MakingWavesApp/DatePeriodRenderer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <marker date="1524423794829" expanded="true" signature="39:732" ph="{...}" />
+                <marker date="1524423794829" expanded="true" signature="77:730" ph="{...}" />
+                <marker date="1524423794829" expanded="true" signature="325:724" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -49,10 +67,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MakingWavesApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MakingWavesApp/DatePeriodRenderer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/MakingWavesApp/DatePeriodRenderer.cs" />
         <option value="$PROJECT_DIR$/MakingWavesApp/Program.cs" />
       </list>
     </option>
@@ -123,7 +143,7 @@
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/MakingWavesApp/bin/Debug/MakingWavesApp.exe" />
-      <option name="PROGRAM_PARAMETERS" value="22.04.1990 15.03.1990" />
+      <option name="PROGRAM_PARAMETERS" value="22.02.1990 25.02.1990" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MakingWavesApp/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <envs />
@@ -153,12 +173,12 @@
       <workItem from="1524299885093" duration="24000" />
       <workItem from="1524317561421" duration="575000" />
       <workItem from="1524318227186" duration="247000" />
-      <workItem from="1524318841011" duration="1649000" />
+      <workItem from="1524318841011" duration="4761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2495000" />
+    <option name="totallyTimeSpent" value="5607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,17 +191,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="823" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24539007" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24539007" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16452074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -205,22 +224,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MakingWavesApp/Program.cs</url>
-          <line>34</line>
-          <properties documentPath="$PROJECT_DIR$/MakingWavesApp/Program.cs">
-            <startOffsets>
-              <startOffset value="1001" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1002" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -230,18 +234,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1524327743101" expanded="false" signature="6:60" ph="..." />
-            <marker date="1524327743101" expanded="true" signature="86:1526" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="115:1128" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="225:708" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="272:385" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="603:698" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="808:1122" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="834:956" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="988:1112" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1181:1524" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1217:1250" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1320:1518" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="6:86" ph="..." />
+            <marker date="1524423777517" expanded="true" signature="112:1819" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="148:1817" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="201:1098" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="248:361" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="632:754" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="803:937" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1184:1811" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1210:1332" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1371:1558" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1590:1775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -251,18 +254,17 @@
         <state relative-caret-position="240">
           <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
           <folding>
-            <marker date="1524327743101" expanded="false" signature="6:60" ph="..." />
-            <marker date="1524327743101" expanded="true" signature="86:1526" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="115:1128" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="225:708" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="272:385" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="603:698" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="808:1122" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="834:956" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="988:1112" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1181:1524" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1217:1250" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1320:1518" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="6:86" ph="..." />
+            <marker date="1524423777517" expanded="true" signature="112:1819" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="148:1817" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="201:1098" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="248:361" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="632:754" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="803:937" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1184:1811" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1210:1332" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1371:1558" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1590:1775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -272,39 +274,49 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1524327743101" expanded="false" signature="6:60" ph="..." />
-            <marker date="1524327743101" expanded="true" signature="86:1526" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="115:1128" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="225:708" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="272:385" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="603:698" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="808:1122" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="834:956" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="988:1112" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1181:1524" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1217:1250" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1320:1518" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="6:86" ph="..." />
+            <marker date="1524423777517" expanded="true" signature="112:1819" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="148:1817" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="201:1098" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="248:361" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="632:754" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="803:937" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1184:1811" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1210:1332" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1371:1558" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1590:1775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MakingWavesApp/DatePeriodRenderer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <marker date="1524423794829" expanded="true" signature="39:732" ph="{...}" />
+            <marker date="1524423794829" expanded="true" signature="77:730" ph="{...}" />
+            <marker date="1524423794829" expanded="true" signature="325:724" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MakingWavesApp/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="376">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <marker date="1524327743101" expanded="false" signature="6:60" ph="..." />
-            <marker date="1524327743101" expanded="true" signature="86:1526" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="115:1128" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="225:708" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="272:385" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="603:698" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="808:1122" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="834:956" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="988:1112" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1181:1524" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1217:1250" ph="{...}" />
-            <marker date="1524327743101" expanded="true" signature="1320:1518" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="6:86" ph="..." />
+            <marker date="1524423777517" expanded="true" signature="112:1819" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="148:1817" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="201:1098" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="248:361" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="632:754" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="803:937" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1184:1811" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1210:1332" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1371:1558" ph="{...}" />
+            <marker date="1524423777517" expanded="true" signature="1590:1775" ph="{...}" />
           </folding>
         </state>
       </provider>

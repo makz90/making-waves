@@ -1,13 +1,12 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 
 namespace MakingWavesApp
 {
-    internal class Program
+    internal static class Program
     {
-        private const string DateFormat = "dd.MM.yyyy";
-
         public static void Main(string[] args)
         {   
             if (args.Length != 2)
@@ -15,43 +14,44 @@ namespace MakingWavesApp
                 Console.WriteLine("Wrong arguments count.");
                 return;
             }
+            
+            var dateFrom = GetDateFromString(args.FirstOrDefault(), DatePeriodRenderer.FullDateFormat);
+            var dateTo = GetDateFromString(args.LastOrDefault(), DatePeriodRenderer.FullDateFormat);
 
-            SetDateFromString(args.First(), DateFormat, out var dateFrom);
-            SetDateFromString(args.Last(), DateFormat, out var dateTo);
-
-            using (var datePeriodRenderer= new DatePeriodRenderer())
+            if (dateFrom == null || dateTo == null)
             {
-                datePeriodRenderer.RenderPeriod(dateFrom, dateTo);
+                Console.WriteLine("Date input could not be parsed.");
+                return;
             }
+            
+            if (dateFrom >= dateTo)
+            {
+                Console.WriteLine("First date must be earlier than second one!");
+                return;
+            }
+            
+            var datePeriodRenderer = new DatePeriodRenderer();
+            datePeriodRenderer.RenderPeriod(dateFrom.Value, dateTo.Value);
         }
 
-        private static void SetDateFromString(string dateString, string format, out DateTime date)
+        private static DateTime? GetDateFromString(string dateString, string format)
         {
             try
             {
-                date = DateTime.ParseExact(dateString, format, CultureInfo.InvariantCulture);
+                return DateTime.ParseExact(dateString, format, CultureInfo.InvariantCulture);
+            }
+            catch (FormatException fe)
+            {
+                Console.WriteLine($"Wrong date format provided ({dateString}). Make sure date format is [{format}]");
+                Debug.Print(fe.Message);
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Could not parse date. Make sure date format is {format}.");
+                Console.WriteLine($"An error occured while trying to parse date ({dateString}). Please try again.");
+                Debug.Print(e.Message);
             }
-        }
-    }
 
-    internal class DatePeriodRenderer : IDisposable
-    {
-        public void Dispose()
-        {
-            
-        }
-
-        public void RenderPeriod(DateTime dateFrom, DateTime dateTo)
-        {
-            var timeSpan = dateTo - dateFrom;
-            
-            if (timeSpan < TimeSpan.FromDays(1))
-            
-            Console.WriteLine($"{dateFrom} - {dateTo}");
+            return null;
         }
     }
 }

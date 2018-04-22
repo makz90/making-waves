@@ -1,6 +1,6 @@
-/Users/mkrawcz/RiderProjects/MakingWavesApp/MakingWavesApp/bin/Debug/MakingWavesApp.exe
-/Users/mkrawcz/RiderProjects/MakingWavesApp/MakingWavesApp/bin/Debug/MakingWavesApp.pdb
 /Users/mkrawcz/RiderProjects/MakingWavesApp/MakingWavesApp/obj/Debug/MakingWavesApp.csprojResolveAssemblyReference.cache
 /Users/mkrawcz/RiderProjects/MakingWavesApp/MakingWavesApp/obj/Debug/MakingWavesApp.csproj.CoreCompileInputs.cache
+/Users/mkrawcz/RiderProjects/MakingWavesApp/MakingWavesApp/bin/Debug/MakingWavesApp.exe
+/Users/mkrawcz/RiderProjects/MakingWavesApp/MakingWavesApp/bin/Debug/MakingWavesApp.pdb
 /Users/mkrawcz/RiderProjects/MakingWavesApp/MakingWavesApp/obj/Debug/MakingWavesApp.exe
 /Users/mkrawcz/RiderProjects/MakingWavesApp/MakingWavesApp/obj/Debug/MakingWavesApp.pdb
