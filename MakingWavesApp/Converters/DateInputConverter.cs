@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
@@ -9,16 +8,32 @@ namespace MakingWavesApp.Converters
 {
     public class DateInputConverter
     {
-        public DateInputConverter(IReadOnlyCollection<string> args)
+        private readonly string _dateFormat;
+
+        public DateInputConverter()
         {
-            if (args.Count != 2)
+            _dateFormat = DatePeriodRenderer.FullDateFormat;
+        }
+        
+        public DateInputConverter(string dateFormat)
+        {
+            _dateFormat = dateFormat;
+        }
+
+        public DateTime? DateFrom { get; private set; }
+        
+        public DateTime? DateTo { get; private set; }
+        
+        public void InitializeDates(string[] args)
+        {
+            if (args.Length != 2)
             {
                 Console.WriteLine("Wrong arguments count.");
                 return;
             }
             
-            var dateFrom = GetDateFromString(args.FirstOrDefault(), DatePeriodRenderer.FullDateFormat);
-            var dateTo = GetDateFromString(args.LastOrDefault(), DatePeriodRenderer.FullDateFormat);
+            var dateFrom = GetDateFromString(args.FirstOrDefault());
+            var dateTo = GetDateFromString(args.LastOrDefault());
 
             if (dateFrom == null || dateTo == null)
             {
@@ -36,19 +51,15 @@ namespace MakingWavesApp.Converters
             DateTo = dateTo;
         }
 
-        public DateTime? DateFrom { get; }
-        
-        public DateTime? DateTo { get; }
-
-        private static DateTime? GetDateFromString(string dateString, string format)
+        private DateTime? GetDateFromString(string dateString)
         {
             try
             {
-                return DateTime.ParseExact(dateString, format, CultureInfo.InvariantCulture);
+                return DateTime.ParseExact(dateString, _dateFormat, CultureInfo.InvariantCulture);
             }
             catch (FormatException fe)
             {
-                Console.WriteLine($"Wrong date format provided ({dateString}). Make sure date format is [{format}]");
+                Console.WriteLine($"Wrong date format provided ({dateString}). Make sure date format is [{_dateFormat}]");
                 Debug.Print(fe.Message);
             }
             catch (Exception e)

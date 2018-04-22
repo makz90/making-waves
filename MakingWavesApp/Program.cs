@@ -1,4 +1,5 @@
-﻿using MakingWavesApp.Converters;
+﻿using System;
+using MakingWavesApp.Converters;
 using MakingWavesApp.Renderers;
 
 namespace MakingWavesApp
@@ -7,11 +8,14 @@ namespace MakingWavesApp
     {
         public static void Main(string[] args)
         {
-            var converter = new DateInputConverter(args);
+            var converter = new DateInputConverter(DatePeriodRenderer.FullDateFormat);
+            converter.InitializeDates(args);
             if (converter.DateFrom == null || converter.DateTo == null) return;
             
             var datePeriodRenderer = new DatePeriodRenderer();
-            datePeriodRenderer.RenderPeriod(converter.DateFrom.Value, converter.DateTo.Value);
+            var renderedPeriod = datePeriodRenderer.RenderPeriod(converter.DateFrom.Value, converter.DateTo.Value);
+            
+            Console.WriteLine(renderedPeriod);
         }
     }
 }

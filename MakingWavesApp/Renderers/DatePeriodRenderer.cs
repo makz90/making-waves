@@ -8,7 +8,7 @@ namespace MakingWavesApp.Renderers
         public const string MonthDateFormat = "dd.MM";
         public const string DayDateFormat = "dd";
         
-        public void RenderPeriod(DateTime dateFrom, DateTime dateTo)
+        public string RenderPeriod(DateTime dateFrom, DateTime dateTo)
         {
             string format;
 
@@ -19,7 +19,7 @@ namespace MakingWavesApp.Renderers
             else
                 format = DayDateFormat;
             
-            Console.WriteLine($"{dateFrom.ToString(format)} - {dateTo.ToString(FullDateFormat)}");
+            return $"{dateFrom.ToString(format)} - {dateTo.ToString(FullDateFormat)}";
         }
     }
 }
